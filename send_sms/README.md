@@ -1,4 +1,4 @@
-SEND TEXT MESSAGES USING AMAZON SNS & PYTHON (Boto3)
+SEND TEXT MESSAGES USING AMAZON SNS AND PYTHON (Boto3)
 
 
 In this mini project, I wrote a python script on how to send SMS messages to a phone number using Python and the AWS SDK for Python (Boto3).
