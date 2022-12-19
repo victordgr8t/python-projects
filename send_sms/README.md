@@ -1,3 +1,6 @@
+SEND TEXT MESSAGES USING AMAZON SNS & PYTHON (Boto3)
+
+
 In this mini project, I wrote a python script on how to send SMS messages to a phone number using Python and the AWS SDK for Python (Boto3).
 
 Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python, which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2.
@@ -117,6 +120,6 @@ response = sns_client.publish(
 
 NB: The number we verified is in the SMS Sandbox in US East(North Virginia) region. When in the sandbox, you can only deliver SMS to the sandbox destination phone numbers you have verified.
 When your account is moved out of the sandbox, these restrictions are removed, and you can send SMS messages to any recipient.
-To move your account out of the sandbox click the link to get detailed steps from AWS SNS SMS SANDBOX DOC
+To move your account out of the sandbox click the link to get detailed steps from https://docs.aws.amazon.com/sns/latest/dg/sns-sms-sandbox-moving-to-production.html
 
 I hope this helps! Let me know if you have any questions
